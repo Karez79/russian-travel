@@ -23,7 +23,6 @@
     font-display: swap;
     src: url("./fonts/Inter-Black.woff2") format("woff2"),
         url("./fonts/Inter-Black.woff") format("woff");
-    ;
 }
 
 @font-face {
@@ -50,11 +49,11 @@
     background-color: #2A2C2F;
     font-family: "Inter", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }
 
 .header {
@@ -790,7 +789,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 767px) {
