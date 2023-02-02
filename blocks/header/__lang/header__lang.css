@@ -1,0 +1,15 @@
+.header__lang {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.11;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header__lang {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}

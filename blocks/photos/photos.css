@@ -1,0 +1,33 @@
+.photos {
+    display: grid;
+    margin: 0 auto;
+    list-style: none;
+    width: calc(100% - 2 * 48px);
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+    grid-template-rows: auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .photos {
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        gap: 15px;
+        width: calc(100% - 2 * 23px);
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photos {
+        gap: 12px;
+        width: calc(100% - 2 * 16px);
+
+    }
+}

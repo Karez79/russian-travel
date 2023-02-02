@@ -1,0 +1,24 @@
+.place__website {
+    align-self: end;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        padding: 0 16px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .place__website {
+        margin-bottom: 32px;
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        max-width: 90%;
+        margin: 0 auto 32px;
+    }
+}

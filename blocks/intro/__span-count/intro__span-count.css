@@ -1,0 +1,8 @@
+.intro__span-count {
+    font-weight: 400;
+}
+
+.intro__span-count::before {
+    content: '\2192';
+    color: red;
+}
