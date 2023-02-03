@@ -1,0 +1,4 @@
+.place__paragraph-image{
+display: flex;
+flex-direction: column;
+}

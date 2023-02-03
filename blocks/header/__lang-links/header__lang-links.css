@@ -1,12 +1,21 @@
 .header__lang-links {
+    color: #fff;
+    margin: 0;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 46px;
+    list-style-type: none;
     display: flex;
-    align-items: space-between;
-    padding-top: 18px;
-
-}
-
-@media screen and (max-width: 320px) {
-    .header__lang-links {
-        padding-top: 14px;
-    }
+    flex-direction: row;
+    gap: 18px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .header__lang-links  {
+      padding-top: 30px;
+      font-size: 18px;
+      line-height: 20px;
+      
+  }
 }
