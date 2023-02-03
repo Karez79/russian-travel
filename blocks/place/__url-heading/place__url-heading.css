@@ -4,5 +4,8 @@
     font-size: 12px;
     line-height: 12px;
     padding-bottom: 12px;
+    letter-spacing: 2px;
+    margin:0;
+    text-transform: uppercase;
   }
 
