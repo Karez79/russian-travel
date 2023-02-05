@@ -1,7 +1,7 @@
 .places {
   max-width: calc(100% - 148px * 2);
   margin: 92px auto 0;
-  padding-bottom: 90px;
+  padding-bottom: 92px;
 }
 
 
@@ -16,7 +16,7 @@
   .places  {
     max-width: calc(100% - 24px * 2);
     margin: 88px auto 0;
-    padding-bottom: 90px;
+    padding-bottom: 92px;
   }
 }
 

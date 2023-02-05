@@ -8,12 +8,13 @@
     font-size: 18px;
     line-height: 22px;
     z-index: 2;
+  
   }
   
   @media screen and (max-width: 768px) {
     .cover__subtitle {
-      font-size: 2.4vw;
-      line-height: 3vw;
+      font-size: 18px;
+      line-height: 22px;
     }
   }
   
