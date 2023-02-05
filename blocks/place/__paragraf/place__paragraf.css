@@ -4,9 +4,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    margin-bottom: 26px;
     box-sizing: border-box;
-    margin:0;
+   margin: 0 0 26px 0;
+    
   }
   
   .place__paragraph:last-child {
@@ -25,5 +25,6 @@
       padding: 0 16px 0;
       max-width: 484px;
       width: 100%;
+   
     }
   }
